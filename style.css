@@ -1,0 +1,88 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body {
+    width: 100%;
+    height: 100%;
+    font-family: Arial, sans-serif;
+    background-color: #f0f8ff;
+}
+#game-container {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+#bubble-area {
+    width: 80%;
+    height: 80%;
+    border: 2px solid #000;
+    background-color: #e0ffff;
+    border-radius: 10px;
+    overflow: hidden;
+
+}
+#bubble-top {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 100%;
+    height: 100px;
+    background-color: #add8e6;
+    
+}
+.element-top {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    font-size: 24px;
+    font-weight: bold;
+    color: #333;
+}
+.box{
+    padding: 10px;
+    background-color: #ffffff;
+    border-radius: 5px;
+}
+#bubble-bottom {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;;
+    padding: 20px;
+    width: 100%;
+    height: calc(100% - 100px);
+    
+}
+/* #start-btnton {
+    padding: 10px 20px;
+    font-size: 20px;
+    background-color: #4caf50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+#start-button:hover {
+    background-color: #45a049;
+} */
+.bubble {
+    width: 60px;
+    height: 60px;
+    background-color: rgba(102, 133, 153, 0.7);
+    border: 2px solid #87cefa;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+    font-size: 24px;
+    color: #333;
+    border-radius: 50%;
+}
